@@ -162,11 +162,6 @@
             android:layout_height="wrap_content"
             android:inputType="textShortMessage"
             android:imeOptions="actionDone" />
-        <WebView
-            android:id="@+id/web_view"
-            android:layout_width="fill_parent"
-            android:layout_height="380sp"
-            android:focusable="true" />
         <EditText
             android:id="@+id/text_cap_characters_with_auto_correction"
             android:layout_width="fill_parent"

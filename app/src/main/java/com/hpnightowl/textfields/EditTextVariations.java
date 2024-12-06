@@ -139,17 +139,6 @@ public final class EditTextVariations extends Activity implements TextView.OnEdi
                 e.setAdapter(mAutoCompleteAdapter);
                 e.setThreshold(1);
             }
-            if (v instanceof WebView) {
-                final WebView wv = (WebView) v;
-                wv.getSettings().setJavaScriptEnabled(true);
-                wv.addJavascriptInterface(new Object() {
-                    @JavascriptInterface
-                    public String name() {
-                        return getThemeName();
-                    }
-                }, "theme");
-                wv.loadUrl("file:///android_asset/webview.html");
-            }
             fields[i] = v;
         }
     }
