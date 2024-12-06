@@ -1,0 +1,19 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">TextEdit</string>
+    <!-- The menu title to change color theme of this application. [CHAR LIMIT=20] -->
+    <string name="menu_change_theme">Change Theme</string>
+    <!-- The menu title to display the version name of this application. [CHAR LIMIT=20] -->
+    <string name="menu_version">Version <xliff:g id="VERSION_NAME" example="0.56">%s</xliff:g></string>
+    <!-- The menu title to turn on the text field focus navigation. [CHAR LIMIT=20] -->
+    <string name="menu_navigate_on" translatable="false">Navigate On</string>
+    <!-- The menu title to turn off the text field focus navigation. [CHAR LIMIT=20] -->
+    <string name="menu_navigate_off" translatable="false">Navigate Off</string>
+    <!-- The menu title to show software keyboard when the application is launched. [CHAR LIMIT=20] -->
+    <string name="menu_softinput_visible" translatable="false">Keyboard Visible</string>
+    <!-- The menu title to stay hidden software keyboard when the application is launched. [CHAR LIMIT=20] -->
+    <string name="menu_softinput_hidden" translatable="false">Keyboard Hidden</string>
+    <!-- The menu title to send a notification to test direct reply. [CHAR LIMIT=20] -->
+    <string name="menu_direct_reply">Direct Reply</string>
+    <!-- The example of custom action key label. Must be short to fit on key. 5 chars or less is preferable.  [CHAR LIMIT=7] -->
+    <string name="custom_action_label">Custom</string>
+</resources>
